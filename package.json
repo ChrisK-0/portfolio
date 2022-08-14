@@ -13,7 +13,6 @@
     "sass": "^1.54.4",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://github.com/ChrisK-0/ChrisK-0.github.io/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
