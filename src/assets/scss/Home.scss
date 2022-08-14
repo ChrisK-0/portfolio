@@ -1,0 +1,51 @@
+@import "_variables.scss";
+
+.experiences {
+    ul {
+        width: 100%;
+    }
+
+    ul li ul {
+        padding-left: 2rem;
+    }
+}
+
+.life_plans {
+    h1 {
+        margin-bottom: 2rem;
+    }
+}
+
+.about_me,
+.experiences,
+.life_plans,
+.life_adventure {
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        margin-top: 2rem;
+    }
+
+    p,
+    li {
+        font-size: 1.2rem;
+    }
+
+    ul {
+        width: 100%;
+    }
+
+    a {
+        color: $primary;
+        font-weight: 500;
+        text-decoration: none;
+
+        transition: color 0.25s ease-in-out;
+
+        &:hover {
+            color: #fff;
+        }
+    }
+}

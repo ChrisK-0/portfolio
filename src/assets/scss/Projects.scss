@@ -1,0 +1,91 @@
+@import "_variables.scss";
+
+.projects_intro {
+    h2 {
+        a {
+            // font-size: 1.3rem;
+        }
+    }
+}
+
+.projects {
+    // h1 {
+    //     margin-bottom: 1rem;
+    //     font-size: 2rem;
+    // }
+
+    // ul {
+    //     margin: 2rem;
+    // }
+
+    // li {
+    //     margin-bottom: 1rem;
+    // }
+}
+
+.projects_intro,
+.projects {
+    width: 100%;
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    p,
+    li {
+        font-size: 1.2rem;
+    }
+
+    a {
+        color: $primary;
+        font-weight: 500;
+        text-decoration: none;
+
+        transition: color 0.25s ease-in-out;
+
+        &:hover {
+            color: #fff;
+        }
+    }
+
+    img {
+        border: 2px solid $secondary;
+    }
+}
+
+// #webosImage {
+//     width: 50%;
+//     height: auto;
+// }
+
+#loggerBrowser {
+    width: 55%;
+    height: auto;
+}
+
+@media only screen and (max-width: 1100px) {
+    #loggerBrowser {
+        width: 65%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    #loggerBrowser {
+        width: 100%;
+        height: auto;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .projects_intro,
+    .projects {
+        // h1 {
+        //     font-size: 1rem;
+        // }
+
+        // p,
+        // li {
+        //     font-size: 1rem;
+        // }
+    }
+}
