@@ -83,19 +83,6 @@ export default function Projects() {
                             height={"auto"}
                         />
                     </li>
-                    <li>
-                        <h3>Classified NFT related organisation</h3>
-
-                        <p>
-                            WIP - a project that a friend introduced to me. He
-                            plans on creating NFTs that build a community that
-                            expands world wide and tries to connect the Web with
-                            the material world. The community will take part in
-                            the organisation's expansion. My part is to create
-                            the website where users can buy the NFTs, merch and
-                            get the latest news.
-                        </p>
-                    </li>
                 </ul>
 
                 <h1>Smaller works</h1>
