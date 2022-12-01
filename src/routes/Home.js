@@ -17,18 +17,23 @@ export default function Home() {
                     <h2>Strenghts:</h2>
 
                     <li>Front-end</li>
-                    <li>High interest and motivation for coding</li>
+                    <li>Strong interest in the hows and whys of code</li>
                     <li>Teamwork</li>
                     <li>Strong English</li>
-                    <li>Caffeine</li>
                 </ul>
 
                 <ul>
                     <h2>Weaknesses:</h2>
 
+                    <li>Naming things</li>
+                    <li>
+                        Security{" "}
+                        <span className="p-red">
+                            (Currently the second highest priority in studying)
+                        </span>
+                    </li>
                     <li>Low back-end experience</li>
-                    <li>PHP</li>
-                    <li>Lack of caffeine</li>
+                    <li>Low long-run experience</li>
                 </ul>
             </section>
 
@@ -40,6 +45,7 @@ export default function Home() {
 
                     <li>React</li>
                     <li>SvelteKit</li>
+                    <li>Vue3</li>
                 </ul>
 
                 <ul>
@@ -70,13 +76,19 @@ export default function Home() {
                         </ul>
                     </li>
 
-                    <li>Python</li>
-                    <li>PHP</li>
-                    <li>Wordpress</li>
+                    <li>
+                        Python <span className="p-red">(Weak)</span>
+                    </li>
+                    <li>
+                        PHP <span className="p-red">(Weak)</span>
+                    </li>
+                    <li>
+                        Wordpress <span className="p-red">(Weak)</span>
+                    </li>
                     <li>Git ( basic experience: commit, push, pull )</li>
                     <li>NGINX</li>
                     <li>Apache</li>
-                    <li>Linux</li>
+                    <li>Linux (Basic)</li>
                 </ul>
             </section>
 
@@ -91,6 +103,7 @@ export default function Home() {
                     <li>Improve back-end knowledge.</li>
                     <li>Finish all web app ideas that I've come up with.</li>
                     <li>Look into C++ ( or Carbon )</li>
+                    <li>Learn Python more</li>
                     <li>Potentially transition into game development.</li>
                 </ul>
             </section>

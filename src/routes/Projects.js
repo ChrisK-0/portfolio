@@ -114,6 +114,10 @@ export default function Projects() {
                             height="auto"
                         />
                     </li>
+
+                    <li>
+                        And others in progress or not yet uploaded.
+                    </li>
                 </ul>
             </section>
         </>
