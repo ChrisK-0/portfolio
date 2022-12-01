@@ -133,6 +133,8 @@ nav {
     animation: navbarLoad 0.75s ease-in-out;
     background-color: rgba($secondary, 0);
 
+    width: 90%;
+
     .nav_brand {
         display: flex;
         justify-content: center;
